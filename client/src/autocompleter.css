@@ -1,0 +1,77 @@
+
+/* Autocompleter style */
+.AutoCompleter 
+{
+    width: 100%;
+    border: 1px solid grey;
+    -webkit-box-shadow: 5px 5px 15px 5px #B6B6B6; 
+    box-shadow: 5px 5px 15px 5px #B65555;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+/* Input style */
+.AutoCompleter input 
+{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* List style */
+.AutoCompleter ul
+{
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid grey;
+}
+
+.AutoCompleter ul::before
+{
+    content: "";
+}
+
+/* List item */
+.AutoCompleter li 
+{
+    padding: 10px 5px;
+    cursor: pointer;
+}   
+
+.AutoCompleter li:hover
+{
+    text-decoration: underline;
+    background-color: rgba(128, 128, 128, 0.20);
+}
+
+.OptionalAddress 
+{
+    width: 100%;
+    border: 1px solid grey;
+    -webkit-box-shadow: 5px 5px 15px 5px #B6B6B6; 
+    box-shadow: 5px 5px 15px 5px #55B655;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+/* Input style */
+.OptionalAddress input
+{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+}

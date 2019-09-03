@@ -1,0 +1,22 @@
+.App 
+{
+  margin: 150px auto 0 auto;
+  width: 600px;
+  text-align: left;
+}
+
+.App h1
+{
+  position: absolute;
+  top: 0px;
+  left: middle;
+  width: 100%;
+  padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.73);
+}
+
+.App-link {
+  color: #61dafb;
+}

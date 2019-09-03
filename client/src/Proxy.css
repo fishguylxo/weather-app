@@ -1,0 +1,14 @@
+
+/* Autocompleter style */
+.Proxy  
+{
+    width: 100%;
+    border: 1px solid grey;
+    -webkit-box-shadow: 5px 5px 15px 5px #B6B6B6; 
+    box-shadow: 5px 5px 15px 5px #5555B6;
+    padding: 15px 0px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.73);
+}
